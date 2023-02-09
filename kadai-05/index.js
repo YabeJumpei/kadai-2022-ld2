@@ -12,7 +12,7 @@ const dictionary = {
     major: "専攻",
 }
 
-const keys = object.keys(profile)
+const keys = Object.keys(profile)
 for (const key of keys) {
     const subject = dictionary[key]
     const value = profile[key]
